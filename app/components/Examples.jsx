@@ -24,14 +24,7 @@ var Examples = (props)=>{
           <li>
             <Link to='/?location= Hyderabad'>Hyderabad, HYD(IND)</Link>
           </li>
-
         </ol>
-
-
-
-
-
-
       </div>
     );
   }
