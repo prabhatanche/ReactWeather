@@ -16,16 +16,28 @@ var {Link} = require('react-router');
 var About = (props)=>{
     return(
       <div>
-        <h1 className="text-center">About The App</h1>
-        <p>Here are few locations to try out!!!</p>
-        <ol>
+        <h1 className="text-center">Who am I?</h1>
+        <p>
+          I am a Front-End UI developer who is passionate about creating wonderful webpage for all customers like to have a best visual experience and smooth transition with in the webpage.
+        </p>
+        <p>
+           This is my sample work for demonstrating my skills related to React.js.
+           
+        </p>
+        <p>
+          I mentioned few links which I used to create this website and from which I learnt.
+        </p>
+        <ul>
           <li>
-            <Link to='/?location=New Jersey'>New Jersey, NJ</Link>
+            <a href = "https://www.linkedin.com/in/prabhat-anche-10467b11a">linkedin</a>
           </li>
           <li>
-            <Link to='/?location= Hyderabad'>Hyderabad, HYD(IND)</Link>
+            <a href = "http://openweathermap.org/">API</a>
           </li>
-        </ol>
+          <li>
+            <a href = "http://foundation.zurb.com/">Styling</a>
+          </li>
+        </ul>
       </div>
     );
   }
