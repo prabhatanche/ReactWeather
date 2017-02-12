@@ -22,7 +22,7 @@ var About = (props)=>{
         </p>
         <p>
            This is my sample work for demonstrating my skills related to React.js.
-           
+
         </p>
         <p>
           I mentioned few links which I used to create this website and from which I learnt.
