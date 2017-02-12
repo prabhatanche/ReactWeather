@@ -11,7 +11,6 @@
 // module.exports =About;
 
 var React = require('react');
-var {Link} = require('react-router');
 
 var About = (props)=>{
     return(
@@ -19,6 +18,7 @@ var About = (props)=>{
         <h1 className="text-center">Who am I?</h1>
         <p>
           I am a Front-End UI developer who is passionate about creating wonderful webpage for all customers like to have a best visual experience and smooth transition with in the webpage.
+          <a href = "https://www.linkedin.com/in/prabhat-anche-10467b11a">linkedin</a> - This is my Linkedin Profile
         </p>
         <p>
            This is my sample work for demonstrating my skills related to React.js.
@@ -29,7 +29,7 @@ var About = (props)=>{
         </p>
         <ul>
           <li>
-            <a href = "https://www.linkedin.com/in/prabhat-anche-10467b11a">linkedin</a>
+            <a href = "https://facebook.github.io/react">React</a> - Javascript framework Used
           </li>
           <li>
             <a href = "http://openweathermap.org/">API</a>
@@ -39,7 +39,7 @@ var About = (props)=>{
           </li>
         </ul>
       </div>
-    );
-  }
+    )
+  };
 
 module.exports =About;
