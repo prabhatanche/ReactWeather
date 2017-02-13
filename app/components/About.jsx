@@ -15,13 +15,25 @@ var About = (props) => {
                 <li>
                     <a href="https://facebook.github.io/react">React</a> - This was the
                     JavaScript framework used.
-
-                    <a href="http://openweathermap.org">API</a> - I used
-                    Open Weather Map to search for weather data by city name.
-
+                </li>
+                <li><a href="http://openweathermap.org">API</a> - I used
+                     Open Weather Map to search for weather data by city name.
+                </li>
+                <li>
                     <a href="http://foundation.zurb.com/">Styling</a> - I used
                     Foundation for styling which is good and easy to use.
                 </li>
+
+                <li>
+                    <a href="http://foundation.zurb.com/">Atom</a> - I used
+                        Atom for writing my code.
+                </li>
+                <li>
+                    <a href="https://www.jetbrains.com/idea/">Jet Brains</a> - I used
+                        Intellij for writing my code.
+                </li>
+
+
             </ul>
         </div>
     )
